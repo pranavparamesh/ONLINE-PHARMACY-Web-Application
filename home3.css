@@ -1,0 +1,193 @@
+
+* {
+    box-sizing: border-box;
+	
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+	
+}
+.btn {
+	padding: 15px,20px;  //search button
+	font-size: 25px;
+	color: white;
+	background:green;
+	border: none;
+	border-radius: 5px;
+}
+
+
+
+
+.header {
+    padding: 30px;
+    text-align: left;
+    line-height: 10px;
+    font-family: cursive;
+   /*background-image: url(bg.jpeg)*/
+	
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+   background-color: #0d2f2d;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color:crimson;
+    color: black;
+}
+aside{
+	width:30%;
+	height:700px;
+	float:left;
+	background:black;
+ 
+	
+}
+
+#sidebar_title {
+background: cadetblue;
+    color: black;
+    font-size: 41px;
+    font-family: cursive;
+    padding: 10px;
+    text-align: center;
+}
+#head {
+	
+    color: red;
+    font-size: 24px;
+    font-family: cursive;
+    padding: 10px;
+    text-align: center;
+}
+.content_wrapper {
+width:1000px;
+margin:auto;
+background:pink;
+
+}
+
+#cats {
+	text-align:center;
+}
+
+#cats li {list-style:none; margin:5px;}
+
+#cats a {color:white; padding:8px; margin:5px; text-align:center; font-size:20px; text-decoration:none; font-family:Comic Sans Ms;}
+
+#cats a:hover {color:orange; font-weight:bolder; text-decoration:underline;}
+
+
+
+	#single_product {float:left; margin-left:30px; font-size:20px; padding:10px;}
+	
+	#single_product img {border:2px solid black;}
+	
+	
+
+
+section{
+	background: no-repeat;
+    width: 69.9%;
+    height: 700px;
+    float: right;
+    overflow-y: scroll;
+   background-image: url(img/3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.limg{
+	text-align:center;
+}
+form{
+	text-align:center;
+	
+}
+.contact{
+	font-weight:bold;
+	font-size:15px;
+}
+
+.login{
+	font-size:30px;
+	
+}
+.regi{
+	text-align:center;
+}
+input[type=submit]{
+	background-color:green;
+	border-radius:4px;
+	padding:12px 20px;
+	border:none;
+	float:right;
+}
+
+
+.form3 input[type="text"]{
+	border-radius:4px;
+	line-height:35px;
+	background:pink;
+	margin-left:400px;
+	font-weight:bold;
+	
+	
+}
+.form3 input[type="submit"]
+{
+	border-radius:4px;
+	padding:12px 20px;
+	border:none;
+	background:#3cbc8d;
+	margin-right:150px;	
+}
+	
+section>h1{
+	font-weight:bold;
+	text-align:center;
+}
+section>form input[type="text"]{
+		border-radius:4px;
+	line-height:35px;
+	font-weight:bold;
+	
+}
+.ship{
+	text-align:center;
+	color:maroon;
+}
+
+
+
+
+.footer {
+    padding: 15px;
+    text-align: center;
+    background: pink;
+    margin-top: 450px;
+	
+}
+
